@@ -1,0 +1,135 @@
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+}
+.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images\ \(2\).jpeg);
+    min-height: 100%;
+}
+div {
+    display: block;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.div{
+ background-color: #0D5629!important;
+    color: rgb(78, 103, 103)!important;
+}
+:hover p,img{
+    color: rgb(79, 93, 17);
+}
+
+.card {
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 0.25rem;
+    color: #0D5629;
+    padding-left: 50px;
+
+}
+
+:hover button{
+    background-color: rgb(104, 91, 91);
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+ }
+ w3-grey, .w3-hover-grey:hover, .w3-gray, .w3-hover-gray:hover{
+ color: #000!important;
+ background-color: #9E9E9E!important;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+div {
+    display: block;
+}
+w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000!important;
+    background-color: #F1F1F1!important;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+p {
+    /* background-color:beige; */
+    padding: 10px 0;
+
+}
+h1,h2{
+    /* background-color:beige; */
+    padding: 10px 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, textarea {
+    padding: 8px;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+input:focus {
+    outline:none;
+}
+.md-form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.send {
+    margin-bottom: 10px;
+}
+label {
+    color: black;
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: 600;
+}
+.bonjour {
+    padding: 20px;
+    line-height: 25px;
+}
